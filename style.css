@@ -1,0 +1,166 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+ .image-container {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  /* position: absolute; */
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+.content-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    color: #353535;
+  }
+  @media (max-width: 768px) {
+    .content-container {
+      /* flex-direction: column;
+      align-items: flex-end; */
+      justify-content: flex-start;
+      margin-left: 20px;
+    }
+}
+.heading{
+    margin-top: 51px;
+    font-size: 45px;
+    line-height: 2px;
+  
+}
+
+.heading-p{
+    width: 450px;
+    padding-top: 0px;
+    font-family: 'Playfair Display';
+    color: #353535;
+    font-size: 20px;
+
+}
+.secondimage{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.secondimage img{
+       display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+  @media (max-width: 768px) {
+    .content-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .secondimage {
+     margin:20px 0px 20px 30px
+    }
+  }
+  .b1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 32px;
+    margin-bottom: 3px;
+    border-radius: 18px;
+    border: none;
+    
+
+  }
+  .section{
+    background-color:rgba(58, 56, 55, 0.064);
+    height: 500px;
+    width: auto;
+
+  }
+  .contain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+    #h1{
+    text-align: center;
+    font-family: 'Playfair Display';
+    color: #353535;
+    font-size: 45px;
+  }
+  .card{
+    background:rgba(58, 56, 55, 0.064);
+    width: 270px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .card-image{
+    height: 190px;
+    margin-bottom: 15px;
+ 
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  
+
+  }
+
+  .img1{
+    background-image: url(newl.jpg);
+
+    
+  }
+  .img2{
+    background-image: url(newlogo.jpg);
+
+  }
+  .img3{
+    background-image: url(forecast.jpg);
+
+  }
+  .img4{
+    background-image: url(d.jfif);
+
+  }
+  .card h2{
+    text-align: center;
+  }
+
+  .card a{
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 8px 1px;
+    margin: 20px 30px;
+  
+    border-radius: 18px;
+    border: none;
+
+  }
+  .card:hover{
+    background-color:  #353535;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
